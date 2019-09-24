@@ -21,4 +21,5 @@ RUN apk add -U --repository http://dl-3.alpinelinux.org/alpine/edge/main \
 
 RUN apk add -U --repository http://dl-3.alpinelinux.org/alpine/edge/community \
     zziplib \
-    texlive-full
+    texlive-full \
+    biber
